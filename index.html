@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./pages/home-page/home-page.css">
     <title>FitChef</title>
     <script type="module" src="./app.js" defer></script>
+    <script type="module" src="./pages/home-page/home-page.js" defer></script>
 </head>
 <body>
     <header>
@@ -74,11 +75,15 @@
         <p>Descubra receitas fit e saudáveis para transformar sua alimentação com <span>sabor</span> e <span>equilíbrio</span>!</p>
 
         <div>
-            <input type="text" placeholder="Digite um item para encontrar receitas deliciosas">
+            <div id="div-input">
+                <input type="text" id="input-search-item" placeholder="Digite um item para encontrar receitas deliciosas">
+    
+                <a href="./pages/recipes/recipes.html" id="search-item">
+                    <img src="./assets/images/icons/white-icons/search-white-icon.png" alt="">
+                </a>
+            </div>
 
-            <a href="">
-                <img src="./assets/images/icons/white-icons/search-white-icon.png" alt="">
-            </a>
+            <span id="error-text">Verifique o item informado e tente novamente!</span>
         </div>
     </main>
 

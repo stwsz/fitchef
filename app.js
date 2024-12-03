@@ -41,5 +41,3 @@ signClick.addEventListener('click', () => {
         signOpen = false;
     }
 });
-
-// 
