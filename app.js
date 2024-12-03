@@ -10,7 +10,6 @@ languageClick.addEventListener('click', () => {
         languageUl.style.display = 'flex';
         languageOpen = true;
         
-        // Close the sign menu if it's open
         if (signOpen) {
             signUl.style.display = 'none';
             signOpen = false;
@@ -42,3 +41,5 @@ signClick.addEventListener('click', () => {
         signOpen = false;
     }
 });
+
+// 
