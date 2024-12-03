@@ -42,18 +42,3 @@ signClick.addEventListener('click', () => {
         signOpen = false;
     }
 });
-
-fetch('./home-page-pt.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('First then');
-        }
-
-        return response.json();
-    })
-    .then(data => {
-        console.log(data);
-    })
-    .catch(error => {
-        console.error('Second then', error);
-    });

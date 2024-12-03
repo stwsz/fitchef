@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    color: var(--primary-color);
+}
+
+main {
+    padding: 1.5rem 5rem;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+main p {
+    text-align: center;
+    font-weight: 450;
+    width: 84%;
+}
+
+main p span {
+    font-weight: 600;
+}
+
+main img {
+    width: 6rem;
+    transition: 0.5s;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+    font-size: 0.9rem;
+}
+
+main form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+main form > div div{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 600;
+    width: 50%;
+}
+
+main form label input {
+    padding: 0.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.2rem;
+}
+
+main form button {
+    background-color: var(--primary-color);
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.8rem 3rem;
+    border-radius: 0.2rem;
+    border: none;
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
+
+#prefer {
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-content: space-between;
+}
+
+#prefer div {
+    width: 30%;
+    height: 0.2rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+}
+
+#social-login {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+#social-login img {
+    width: 2rem;
+    transition: 0.5s;
+}
+
+main p {
+    font-size: 0.8rem;
+}
+
+main p a {
+    color: var(--tertiary-color);
+    font-weight: 600;
+}
+
+aside {
+    width: 45%;
+    background-image: url('./../../assets/images/backgrounds/registration-aside-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main img:hover, main form button:hover, #social-login img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}

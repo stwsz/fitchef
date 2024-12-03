@@ -61,7 +61,7 @@ header #additional-informations div {
 }
 
 header #additional-informations img {
-    width: 1.5rem;
+    width: 1.6rem;
     transition: 0.5s;
 }
 
@@ -90,6 +90,7 @@ header #additional-informations div ul li {
     gap: 0.5rem;
     text-decoration: none;
     color: #185230;
+    font-size: 0.8rem;
 }
 
 header #additional-informations div ul li img {
