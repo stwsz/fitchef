@@ -22,14 +22,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    font-size: 0.75rem;
+    padding: 1.5rem 2.5rem;
+    font-size: 0.9rem;
     color: var(--primary-color);
     font-weight: 450;
 }
 
 header a > img {
-    width: 5rem;
+    width: 6rem;
     transition: 0.5s;
 }
 
@@ -74,14 +74,14 @@ header #additional-informations img {
     border-radius: 0px 0px 5px 5px;
     box-shadow: -3px 42px 70px -4px rgba(161,161,161,1);
     position: absolute;
-    top: 70px;
+    top: 85px;
     right: 20px;
 }
 
 #language-ul {
     position: absolute;
-    top: 70px;
-    right: 60px;
+    top: 85px;
+    right: 110px;
 }
 
 header #additional-informations div ul li {
@@ -107,7 +107,7 @@ header div img:hover, ul li:hover, header a > img:hover {
 #add-recept {
     background-color: var(--tertiary-color);
     border: none;
-    padding: 0.5rem;
+    padding: 0.8rem;
     border-radius: 2rem;
     position: absolute;
     bottom: 20px;
@@ -125,8 +125,8 @@ header div img:hover, ul li:hover, header a > img:hover {
 }
 
 #add-recept img {
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
     margin: auto;
 }
 

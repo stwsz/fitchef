@@ -3,16 +3,17 @@ main {
     flex-direction: column;
     gap: 2.5rem;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 2.8rem;
 }
 
 main img {
-    width: 12rem;
+    width: 15rem;
 }
 
 main p {
     color: var(--primary-color);
     font-weight: 450;
+    font-size: 1.2rem;
 }
 
 main p span {
@@ -26,30 +27,28 @@ main div {
     align-items: center;
     justify-content: center;
     gap: 1.2rem;
-    width: 100%;
 }
 
 main div input {
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
-    height: 2.8rem;
-    width: 50%;
+    height: 3.2rem;
+    width: 40rem;
     padding-left: 1rem;
 }
 
 main div input::placeholder {
     color: var(--primary-color);
-    font-size: 0.7rem;
     opacity: 0.8;
 }
 
 main div a img {
     background-color: var(--tertiary-color);
     position: absolute;
-    border-radius: 0.9rem;
-    top: 8px;
-    right: 295px;
-    height: 1.8rem;
-    width: 1.8rem;
-    padding: 5px;
+    border-radius: 1rem;
+    top: 10px;
+    right: 35px;
+    height: 2rem;
+    width: 2rem;
+    padding: 6px;
 }
