@@ -10,5 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "validator": "^13.12.0"
   }
 }
