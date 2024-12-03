@@ -1,7 +1,3 @@
-import { homePageBr } from "./../../languages/home-page/home-page-pt";
-
-console.log(homePageBr);
-
 // Opening a language menu
 const languageClick = document.getElementById('language-click');
 const languageUl = document.getElementById('language-ul');
