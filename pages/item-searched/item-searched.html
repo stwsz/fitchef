@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../../style.css">
-    <link rel="stylesheet" href="./items.css">
+    <link rel="stylesheet" href="./item-searched.css">
     <link rel="icon" href="./../../assets/images/favicons/favicon-white.png">
     <script src="./../../app.js" type="module" defer></script>
-    <script src="./items.js" type="module" defer></script>
-    <title>Itens - FitChef</title>
+    <script src="./item-searched.js" defer></script>
+    <title></title>
 </head>
 <body>
     <header>
@@ -19,7 +19,7 @@
         <nav>
             <ul>
                 <li><a href="./../recipes/recipes.html">Receitas</a></li>
-                <li><a href="./items.html" style="color: var(--tertiary-color); font-weight: 650;">Itens</a></li>
+                <li><a href="./../items/items.html">Itens</a></li>
                 <li><a href="./../diets/diets.html">Dietas</a></li>
             </ul>
         </nav>
@@ -31,13 +31,13 @@
                 <ul id="language-ul">
                     <li>
                         <img src="./../../assets/images/icons/brazil-flag.png" alt="">
-    
+
                         <p>PT/BR</p>
                     </li>
                     
                     <li>
                         <img src="./../../assets/images/icons/united-states-flag.png" alt="">
-    
+
                         <p>EN/US</p>
                     </li>
                 </ul>
@@ -52,7 +52,7 @@
                     <a href="./../../pages/login/login.html">
                         <li>
                             <img src="./../../assets/images/icons/green-icons/login-green-icon.png" alt="">
-    
+
                             <p>Fazer login</p>
                         </li>
                     </a>
@@ -60,7 +60,7 @@
                     <a href="./../../pages/registration/registration.html">
                         <li>
                             <img src="./../../assets/images/icons/green-icons/register-green-icon.png" alt="">
-    
+
                             <p>Fazer Cadastro</p>
                         </li>
                     </a>
@@ -70,15 +70,23 @@
     </header>
 
     <main>
-        <a href="./../../pages/item-searched/item-searched.html">
-            <div class="itens" id="acabate">
-                <img src="./../../assets/images/Abacate.png" alt="">
-    
+        <h1 id="text-item"></h1>
+
+        <div>
+            <div class="itens">
+                <img src="./../../assets/images/ex1.png" alt="">
+
                 <div class="info-itens">
-                    <p>Abacate</p>
+                    <p>Omelete com iogurte natural</p>
+
+                    <div>
+                        <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+
+                        <p>20 minutos</p>
+                    </div>
                 </div>
             </div>
-        </a>
+        </div>
     </main>
 
     <footer>
@@ -91,4 +99,3 @@
         <img src="./../../assets/images/icons/white-icons/add-recept-white-icon.png" alt="">
     </button>
 </body>
-</html>
