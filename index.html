@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/images/logos/fitchef-logo-green.png">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pages/home-page/home-page.css">
     <title>FitChef</title>
+    <script type="module" src="./pages/home-page/home-page.js" defer></script>
 </head>
 <body>
     <header>
@@ -24,12 +23,52 @@
             </ul>
         </nav>
 
-        <div>
-            <img src="./assets/images/icons/language-green-icon.png" alt="">
+        <div id="additional-informations">
+            <div>
+                <img src="./assets/images/icons/brazil-flag.png" alt="" id="language-click">
 
-            <img src="./assets/images/icons/dark-mode-icon.png" alt="">
+                <ul id="language-ul">
+                    <a href="">
+                        <li>
+                            <img src="./assets/images/icons/brazil-flag.png" alt="">
+    
+                            <p>Fazer login</p>
+                        </li>
+                    </a>
+                    
+                    <a href="">
+                        <li>
+                            <img src="./assets/images/icons/united-states-flag.png" alt="">
+    
+                            <p>Fazer Cadastro</p>
+                        </li>
+                    </a>
+                </ul>
+            </div>
 
-            <img src="./assets/images/icons/sign-green-icon.png" alt="">
+            <img src="./assets/images/icons/green-icons/dark-mode-icon.png" alt="">
+
+            <div>
+                <img src="./assets/images/icons/green-icons/sign-green-icon.png" alt="" id="sign-click">
+
+                <ul id="sign-ul">
+                    <a href="">
+                        <li>
+                            <img src="./assets/images/icons/green-icons/login-green-icon.png" alt="">
+    
+                            <p>Fazer login</p>
+                        </li>
+                    </a>
+                    
+                    <a href="">
+                        <li>
+                            <img src="./assets/images/icons/green-icons/register-green-icon.png" alt="">
+    
+                            <p>Fazer Cadastro</p>
+                        </li>
+                    </a>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -42,9 +81,13 @@
             <input type="text" placeholder="Digite um item para encontrar receitas deliciosas">
 
             <a href="">
-                <img src="./assets/images/icons/search-white-icon.png" alt="">
+                <img src="./assets/images/icons/white-icons/search-white-icon.png" alt="">
             </a>
         </div>
     </main>
+
+    <button id="add-recept">
+        <img src="./assets/images/icons/white-icons/add-recept-white-icon.png" alt="">
+    </button>
 </body>
 </html>

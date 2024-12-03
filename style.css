@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+:root {
+    --primary-color: #185230;
+    --secondary-color: #fff;
+    --tertiary-color: #fab22c;
+    --quaternary-color: #0f0f0f;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-size: 0.75rem;
+    color: var(--primary-color);
+    font-weight: 450;
+}
+
+header a > img {
+    width: 5rem;
+    transition: 0.5s;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    list-style: none;
+}
+
+ul li {
+    transition: 0.5s;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+header #additional-informations {
+    display: flex;
+    align-items: center;
+}
+
+header #additional-informations div {
+    display: flex;
+    flex-direction: column;
+}
+
+header #additional-informations img {
+    width: 1.5rem;
+    transition: 0.5s;
+}
+
+#sign-ul, #language-ul {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: -3px 42px 70px -4px rgba(161,161,161,1);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+#language-ul {
+    position: absolute;
+    top: 70px;
+    right: 60px;
+}
+
+header #additional-informations div ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #185230;
+}
+
+header #additional-informations div ul li img {
+    width: 1rem;
+}
+
+header div img:hover, ul li:hover, header a > img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/*footer*/
+
+#add-recept {
+    background-color: var(--tertiary-color);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    transition: 0.6s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-recept:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+#add-recept img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: auto;
+}
+

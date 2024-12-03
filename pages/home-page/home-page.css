@@ -34,10 +34,10 @@ main div input {
     border-radius: 1rem;
     height: 2.8rem;
     width: 50%;
+    padding-left: 1rem;
 }
 
 main div input::placeholder {
-    padding-left: 1rem;
     color: var(--primary-color);
     font-size: 0.7rem;
     opacity: 0.8;
