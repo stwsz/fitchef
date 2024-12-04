@@ -1,4 +1,4 @@
-// 
+// Logic of choosing an item
 const items = document.getElementsByClassName('itens');
 
 for (const item of items) {

@@ -34,14 +34,14 @@ header a > img {
     transition: 0.5s;
 }
 
-ul {
+#navigation {
     display: flex;
     align-items: center;
     gap: 5rem;
     list-style: none;
 }
 
-ul li {
+#navigation li {
     transition: 0.5s;
 }
 
@@ -81,6 +81,7 @@ header #additional-informations img {
     position: absolute;
     top: 85px;
     right: 20px;
+    z-index: 9999;
 }
 
 #language-ul {
@@ -102,7 +103,7 @@ header #additional-informations div ul li img {
     width: 1rem;
 }
 
-header div img:hover, ul li:hover, header a > img:hover {
+header div img:hover, #navigation li:hover, header a > img:hover {
     transform: scale(1.05);
     transition: 0.5s;
     cursor: pointer;

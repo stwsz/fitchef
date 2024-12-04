@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../../style.css">
-    <link rel="stylesheet" href="./item-searched.css">
+    <link rel="stylesheet" href="./details-diets.css">
     <link rel="icon" href="./../../assets/images/favicons/favicon-white.png">
     <script src="./../../app.js" type="module" defer></script>
-    <script src="./item-searched.js" defer></script>
+    <script src="./details-diets.js" type="module" defer></script>
     <title></title>
 </head>
 <body>
@@ -31,13 +31,13 @@
                 <ul id="language-ul">
                     <li>
                         <img src="./../../assets/images/icons/brazil-flag.png" alt="">
-
+    
                         <p>PT/BR</p>
                     </li>
-                    
+
                     <li>
                         <img src="./../../assets/images/icons/united-states-flag.png" alt="">
-
+    
                         <p>EN/US</p>
                     </li>
                 </ul>
@@ -52,7 +52,7 @@
                     <a href="./../../pages/login/login.html">
                         <li>
                             <img src="./../../assets/images/icons/green-icons/login-green-icon.png" alt="">
-
+    
                             <p>Fazer login</p>
                         </li>
                     </a>
@@ -60,7 +60,7 @@
                     <a href="./../../pages/registration/registration.html">
                         <li>
                             <img src="./../../assets/images/icons/green-icons/register-green-icon.png" alt="">
-
+    
                             <p>Fazer Cadastro</p>
                         </li>
                     </a>
@@ -70,22 +70,44 @@
     </header>
 
     <main>
-        <h1 id="text-item"></h1>
+        <h1 id="title-diet">
+
+        </h1>
 
         <div>
-            <div class="itens">
-                <img src="./../../assets/images/ex1.png" alt="">
-
-                <div class="info-itens">
-                    <p>Omelete com iogurte natural</p>
-
+            <div id="principal-ref">
+                <ul id="breakfast">
                     <div>
-                        <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+                        <img src="./../../assets/images/icons/green-icons/breakfast-green-icon.png" alt="">
 
-                        <p>20 minutos</p>
+                        <p>Café da manhã</p>
                     </div>
-                </div>
+                </ul>
+
+                <ul id="lunch">
+                    <div>
+                        <img src="./../../assets/images/icons/green-icons/lunch-green-icon.png" alt="">
+
+                        <p>Almoço</p>
+                    </div>
+                </ul>
+
+                <ul id="dinner">
+                    <div>
+                        <img src="./../../assets/images/icons/green-icons/dinner-green-icon.png" alt="">
+
+                        <p>Jantar</p>
+                    </div>
+                </ul>
             </div>
+
+            <ul id="snack">
+                <div>
+                    <img src="./../../assets/images/icons/green-icons/snack-green-icon.png" alt="">
+
+                    <p>Lanche</p>
+                </div>
+            </ul>
         </div>
     </main>
 
@@ -99,3 +121,4 @@
         <img src="./../../assets/images/icons/white-icons/add-recept-white-icon.png" alt="">
     </button>
 </body>
+</html>

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="./../diets/diets.css">
     <link rel="icon" href="./../../assets/images/favicons/favicon-white.png">
     <script src="./../../app.js" type="module" defer></script>
+    <script src="./diets.js" type="module" defer></script>
     <title>Dietas - FitChef</title>
 </head>
 <body>
@@ -15,7 +17,7 @@
         </a>
         
         <nav>
-            <ul>
+            <ul id="navigation">
                 <li><a href="./../recipes/recipes.html">Receitas</a></li>
                 <li><a href="./../items/items.html">Itens</a></li>
                 <li><a href="./diets.html" style="color: var(--tertiary-color); font-weight: 650;">Dietas</a></li>
@@ -66,6 +68,68 @@
             </div>
         </div>
     </header>
+
+    <main>
+        <a href="./../details-diets/details-diets.html">
+            <div class="diets-items" id="vegetarian">
+                <img src="./../../assets/images/general-images/vegetarian-image.jpg" alt="">
+    
+                <div>
+                    <h2>Vegetariana</h2>
+    
+                    <p>A dieta vegetariana exclui carnes e peixes, mas inclui alimentos de origem vegetal, como legumes, frutas, grãos e nozes. Alguns vegetarianos consomem laticínios e ovos, sendo esses grupos chamados de lacto-ovo-vegetarianos. Essa dieta pode ser rica em nutrientes, como fibras, vitaminas e minerais, quando bem planejada, promovendo benefícios como redução do risco de doenças cardiovasculares e controle de peso.</p>
+                </div>
+            </div>
+        </a>
+    
+        <a href="./../details-diets/details-diets.html">
+            <div class="diets-items" id="vegan">
+                <img src="./../../assets/images/general-images/vegan-image.jpg" alt="">
+    
+                <div>
+                    <h2>Vegana</h2>
+    
+                    <p>A dieta vegana vai além da vegetariana, eliminando todos os produtos de origem animal, incluindo laticínios, ovos e mel. Focada em alimentos vegetais, como frutas, vegetais, grãos integrais e leguminosas, ela é reconhecida por seus benefícios à saúde e ao meio ambiente. É essencial garantir o consumo adequado de proteínas, ferro, vitamina B12 e outros nutrientes para manter o equilíbrio nutricional.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="./../details-diets/details-diets.html">
+            <div class="diets-items" id="no-lactose">
+                <img src="./../../assets/images/general-images/lactose-image.jpg" alt="">
+    
+                <div>
+                    <h2>Sem Lactose</h2>
+    
+                    <p>A dieta sem lactose é voltada para pessoas com intolerância a esse açúcar presente no leite e seus derivados. Ela exclui alimentos como queijos, manteiga e iogurtes comuns, substituindo-os por opções como leites vegetais, queijos veganos e produtos lácteos sem lactose. Além de aliviar sintomas como inchaço e desconforto abdominal, essa dieta pode ser uma alternativa saudável quando complementada com outros alimentos ricos em cálcio.</p>
+                </div>
+            </div>
+        </a>
+        
+        <a href="./../details-diets/details-diets.html">
+            <div class="diets-items" id="no-gluten">
+                <img src="./../../assets/images/general-images/gluten-image.jpg" alt="">
+    
+                <div>
+                    <h2>Sem Glúten</h2>
+    
+                    <p>Um plano alimentar ideal para quem tem intolerância ao glúten ou busca uma alimentação leve, priorizando alimentos naturais como frutas, vegetais, carnes magras e grãos alternativos como quinoa e arroz.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="./../details-diets/details-diets.html">
+            <div class="diets-items" id="lowcarb">
+                <img src="./../../assets/images/general-images/lowcarb-image.jpeg" alt="">
+    
+                <div>
+                    <h2>Low Carb</h2>
+    
+                    <p>Focada na redução de carboidratos, essa dieta promove o consumo de proteínas magras, gorduras saudáveis e vegetais com baixo teor de carboidratos, ajudando no controle de peso e energia.</p>
+                </div>
+            </div>
+        </a>
+    </main>
 
     <footer>
         <img src="./../../assets/images/logos/fitchef-logo-green.png" alt="">
