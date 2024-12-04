@@ -41,3 +41,24 @@ signClick.addEventListener('click', () => {
         signOpen = false;
     }
 });
+
+// Logic of add recept modal
+const buttonAddRecept = document.getElementById('add-recept');
+const modalAddRecept = document.getElementById('modal-add-recept');
+const closeRecept = document.querySelector('#modal-add-recept > div div:first-child img');
+
+const recept = {
+    title: '',
+
+}
+
+buttonAddRecept.addEventListener('click', () => {
+    modalAddRecept.style.display = 'flex';
+});
+
+closeRecept.addEventListener('click', () => {
+    modalAddRecept.style.display = 'none';
+});
+
+
+

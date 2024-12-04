@@ -15,6 +15,10 @@
     --quinary-color: #e70000;
 }
 
+body {
+    position: relative;
+}
+
 a {
     text-decoration: none;
 }
@@ -157,3 +161,73 @@ footer p {
     margin: auto;
 }
 
+#modal-add-recept {
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 9999;
+}
+
+#modal-add-recept > div {
+    background-color: var(--primary-color);
+    padding: 1.7rem 2rem 2rem 2rem;
+    width: 50%;
+    height: 55%;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+#modal-add-recept > div div:first-child {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#modal-add-recept > div div:first-child img {
+    width: 1rem;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+#modal-add-recept > div #input-recept {
+    gap: 1.5rem;
+    width: 60%;
+}
+
+#modal-add-recept > div #input-recept p {
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+#modal-add-recept > div #input-recept input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+#modal-add-recept > div button {
+    background-color: var(--tertiary-color);
+    border: none;
+    color: var(--secondary-color);
+    padding: 1rem 3rem;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+#modal-add-recept > div div:first-child img:hover, #modal-add-recept > div button:hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+}
