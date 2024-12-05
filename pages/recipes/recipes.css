@@ -23,6 +23,12 @@ main section > div {
     gap: 1.2rem;
 }
 
+#div-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
 .itens {
     position: relative;
     transition: 0.8s;
@@ -64,3 +70,4 @@ main section > div {
     transform: scale(1.05);
     transition: 0.8s;
 }
+

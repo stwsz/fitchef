@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="./recipes.css">
     <link rel="icon" href="./../../assets/images/favicons/favicon-white.png">
     <script type="module" src="./../../app.js" defer></script>
+    <script src="./recipes.js"></script>
     <title>Receitas - FitChef</title>
 </head>
 <body>
     <header>
         <a href="./../../index.html">
-            <img src="./../../assets/images/logos/fitchef-logo-green.png" alt="">
+            <img src="./../../assets/images/logos/fitchef-logo-green.png" class="logo" alt="">
         </a>
         
         <nav>
             <ul id="navigation">
-                <li><a href="./recipes.html" style="color: var(--tertiary-color); font-weight: 650;">Receitas</a></li>
-                <li><a href="./../items/items.html">Itens</a></li>
-                <li><a href="./../diets/diets.html">Dietas</a></li>
+                <li><a href="./recipes.html" style="color: var(--tertiary-color); font-weight: 600;">Receitas</a></li>
+                <li><a href="./../../pages/items/items.html">Itens</a></li>
+                <li><a href="./../../pages/diets/diets.html">Dietas</a></li>
             </ul>
         </nav>
 
@@ -33,7 +34,7 @@
     
                         <p>PT/BR</p>
                     </li>
-                    
+                
                     <li>
                         <img src="./../../assets/images/icons/united-states-flag.png" alt="">
     
@@ -42,7 +43,7 @@
                 </ul>
             </div>
 
-            <img src="./../../assets/images/icons/green-icons/dark-mode-icon.png" alt="">
+            <img src="./../../assets/images/icons/green-icons/dark-mode-icon.png" id="toggle-theme" alt="">
 
             <div>
                 <img src="./../../assets/images/icons/green-icons/sign-green-icon.png" alt="" id="sign-click">
@@ -73,16 +74,66 @@
             <h2>Receitas em alta</h2>
 
             <div>
-                <div class="itens">
-                    <img src="./../../assets/images/ex1.png" alt="">
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/1-image-recepts.png" alt="">
+            
+                        <div class="info-itens">
+                            <p>Omelete com iogurte natural</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>20 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     
-                    <div class="info-itens">
-                        <p>Omelete com iogurte natural</p>
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/4-image-recepts.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Pizza de crepioca</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>15 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     
-                        <div>
-                            <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
-    
-                            <p>20 minutos</p>
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/3-image-recepts.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Avocado toast com ovo</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>5 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/2-image-recepts.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Tapioca com queijo e ovo</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>20 minutos</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -91,18 +142,68 @@
 
         <section>
             <h2>Receitas imperdíveis</h2>
-
+    
             <div>
-                <div class="itens">
-                    <img src="./../../assets/images/ex1.png" alt="">
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/10-image-recept.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Omelete de tomate com ervas</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>35 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/11-image-recept.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Ovo cozido recheado </p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>15 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     
-                    <div class="info-itens">
-                        <p>Omelete com iogurte natural</p>
-    
-                        <div>
-                            <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
-    
-                            <p>20 minutos</p>
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/13-image-recepts.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Frittata de ovo</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>25 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/8-image-recepts.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Tapioca com queijo e ovo</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>20 minutos</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,16 +214,66 @@
             <h2>Receitas rápidas e fáceis</h2>
 
             <div>
-                <div class="itens">
-                    <img src="./../../assets/images/ex1.png" alt="">
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/6-image-recept.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Panqueca de banana fit com aveia</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>15 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     
-                    <div class="info-itens">
-                        <p>Omelete com iogurte natural</p>
-    
-                        <div>
-                            <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
-    
-                            <p>20 minutos</p>
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/9-image-recept.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Panqueca doce</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>5 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/7-image-recept.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Crepioca de queijo</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>10 minutos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="itens">
+                        <img src="./../../assets/images/recepts-images/14-image-diets.jpg" alt="">
+            
+                        <div class="info-itens">
+                            <p>Pão de fubá de micro-ondas</p>
+            
+                            <div>
+                                <img src="./../../assets/images/icons/clock-icon.png" alt=""> 
+            
+                                <p>10 minutos</p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -42,10 +42,10 @@ main div input {
     height: 3.2rem;
     width: 40rem;
     padding-left: 1rem;
+    color: var(--primary-color);
 }
 
 main div input::placeholder {
-    color: var(--primary-color);
     opacity: 0.8;
 }
 

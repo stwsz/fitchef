@@ -50,7 +50,7 @@ main form label input {
     border-radius: 0.2rem;
 }
 
-main form button {
+#button {
     background-color: var(--primary-color);
     width: 60%;
     margin: 0 auto;
@@ -59,6 +59,13 @@ main form button {
     border: none;
     color: var(--secondary-color);
     transition: 0.5s;
+    text-align: center;
+}
+
+#button:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+    cursor: pointer;
 }
 
 #prefer {

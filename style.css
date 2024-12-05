@@ -15,8 +15,19 @@
     --quinary-color: #e70000;
 }
 
+body.default-theme {
+    --primary-color: #185230;
+    --secondary-color: #fff;
+}
+
+body.alternate-theme {
+    --primary-color: #fff;
+    --secondary-color: #185230;
+}
+
 body {
     position: relative;
+    background-color: var(--secondary-color);
 }
 
 a {

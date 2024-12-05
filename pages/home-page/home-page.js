@@ -19,4 +19,3 @@ searchItem.addEventListener('click', (e) => {
         errorText.style.display = 'block';
     }
 });
-
