@@ -144,8 +144,6 @@ const lunch = document.getElementById('lunch');
 const dinner = document.getElementById('dinner');
 const snack = document.getElementById('snack');
 
-
-
 if (chosedDiet === 'vegetarian') {
     titleDiet.innerText = `${vegetarian.title}`;
     document.title = `${vegetarian.title} - FitChef`;
@@ -306,12 +304,24 @@ if (chosedDiet === 'vegetarian') {
 // Dark theme
 let darkMode = JSON.parse(localStorage.getItem("dark-mode"));
 const logos = document.getElementsByClassName('logo');
+const iconLogin = document.getElementById('icon-login');
+const iconRegister = document.getElementById('icon-register');
+const breakfastIcon = document.getElementById('breakfast-icon');
+const lunchIcon = document.getElementById('lunch-icon');
+const dinnerIcon = document.getElementById('dinner-icon');
+const snackIcon = document.getElementById('snack-icon');
 
 if (darkMode) {
     document.body.classList.add("alternate-theme");
 
     document.getElementById('toggle-theme').setAttribute('src', './../../assets/images/icons/white-icons/light-mode-icon.png');
-    signClick.setAttribute('src', './../../assets/images/icons/white-icons/sign-white-icon.png');
+    document.getElementById('sign-click').setAttribute('src', './../../assets/images/icons/white-icons/sign-white-icon.png');
+    iconLogin.setAttribute('src', './../../assets/images/icons/white-icons/login-white-icon.png');
+    iconRegister.setAttribute('src', './../../assets/images/icons/white-icons/register-white-icon.png');
+    breakfastIcon.setAttribute('src', './../../assets/images/icons/white-icons/breakfast-white-icon.png');
+    lunchIcon.setAttribute('src', './../../assets/images/icons/white-icons/lunch-white-icon.png');
+    dinnerIcon.setAttribute('src', './../../assets/images/icons/white-icons/dinner-white-icon.png');
+    snackIcon.setAttribute('src', './../../assets/images/icons/white-icons/snack-white-icon.png');
         
     for (const logo of logos) {
         logo.setAttribute('src', './../../assets/images/logos/fitchef-logo-white.png');
@@ -323,7 +333,13 @@ if (darkMode) {
     document.body.classList.add("default-theme");
 
     document.getElementById('toggle-theme').setAttribute('src', './../../assets/images/icons/green-icons/dark-mode-icon.png');
-    signClick.setAttribute('src', './../../assets/images/icons/green-icons/sign-green-icon.png');
+    document.getElementById('sign-click').setAttribute('src', './../../assets/images/icons/green-icons/sign-green-icon.png');
+    iconLogin.setAttribute('src', './../../assets/images/icons/green-icons/login-green-icon.png');
+    iconRegister.setAttribute('src', './../../assets/images/icons/green-icons/register-green-icon.png');
+    breakfastIcon.setAttribute('src', './../../assets/images/icons/green-icons/breakfast-green-icon.png');
+    lunchIcon.setAttribute('src', './../../assets/images/icons/green-icons/lunch-green-icon.png');
+    dinnerIcon.setAttribute('src', './../../assets/images/icons/green-icons/dinner-green-icon.png');
+    snackIcon.setAttribute('src', './../../assets/images/icons/green-icons/snack-green-icon.png');
 
     for (const logo of logos) {
         logo.setAttribute('src', './../../assets/images/logos/fitchef-logo-green.png');
@@ -339,7 +355,13 @@ document.getElementById("toggle-theme").addEventListener("click", () => {
         document.body.classList.add("alternate-theme");
 
         document.getElementById('toggle-theme').setAttribute('src', './../../assets/images/icons/white-icons/light-mode-icon.png');
-        signClick.setAttribute('src', './assets/images/icons/white-icons/sign-white-icon.png');
+        document.getElementById('sign-click').setAttribute('src', './../../assets/images/icons/white-icons/sign-white-icon.png');
+        iconLogin.setAttribute('src', './../../assets/images/icons/white-icons/login-white-icon.png');
+        iconRegister.setAttribute('src', './../../assets/images/icons/white-icons/register-white-icon.png');
+        breakfastIcon.setAttribute('src', './../../assets/images/icons/white-icons/breakfast-white-icon.png');
+        lunchIcon.setAttribute('src', './../../assets/images/icons/white-icons/lunch-white-icon.png');
+        dinnerIcon.setAttribute('src', './../../assets/images/icons/white-icons/dinner-white-icon.png');
+        snackIcon.setAttribute('src', './../../assets/images/icons/white-icons/snack-white-icon.png');
         
         for (const logo of logos) {
             logo.setAttribute('src', './../../assets/images/logos/fitchef-logo-white.png');
@@ -349,7 +371,14 @@ document.getElementById("toggle-theme").addEventListener("click", () => {
         document.body.classList.add("default-theme");
 
         document.getElementById('toggle-theme').setAttribute('src', './../../assets/images/icons/green-icons/dark-mode-icon.png');
-        signClick.setAttribute('src', './../../assets/images/icons/green-icons/sign-green-icon.png');
+        document.getElementById('sign-click').setAttribute('src', './../../assets/images/icons/green-icons/sign-green-icon.png');
+        iconLogin.setAttribute('src', './../../assets/images/icons/green-icons/login-green-icon.png');
+        iconRegister.setAttribute('src', './../../assets/images/icons/green-icons/register-green-icon.png');
+        breakfastIcon.setAttribute('src', './../../assets/images/icons/green-icons/breakfast-green-icon.png');
+        lunchIcon.setAttribute('src', './../../assets/images/icons/green-icons/lunch-green-icon.png');
+        dinnerIcon.setAttribute('src', './../../assets/images/icons/green-icons/dinner-green-icon.png');
+        snackIcon.setAttribute('src', './../../assets/images/icons/green-icons/snack-green-icon.png');
+        
 
         for (const logo of logos) {
             logo.setAttribute('src', './../../assets/images/logos/fitchef-logo-green.png');

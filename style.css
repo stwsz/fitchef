@@ -64,6 +64,10 @@ ul li a {
     color: var(--primary-color);
 }
 
+#language-ul li p, #sign-ul a li p{
+    color: var(--primary-color);
+}
+
 header div {
     display: flex;
     align-items: center;
@@ -78,6 +82,7 @@ header #additional-informations {
 header #additional-informations div {
     display: flex;
     flex-direction: column;
+    color: var(--primary-color);
 }
 
 header #additional-informations img {
@@ -136,7 +141,7 @@ footer {
     width: 90vw;
     margin: 0 auto;
     padding: 2rem 0rem;
-    border-top: 1px solid #185230;
+    border-top: 1px solid var(--primary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;

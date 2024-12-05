@@ -127,6 +127,7 @@ if (darkMode) {
 
     document.getElementById('toggle-theme').setAttribute('src', './assets/images/icons/white-icons/light-mode-icon.png');
     signClick.setAttribute('src', './assets/images/icons/white-icons/sign-white-icon.png');
+    closeRecept.setAttribute('src', './assets/images/icons/white-icons/close-white-icon.png');
         
     for (const logo of logos) {
         logo.setAttribute('src', './assets/images/logos/fitchef-logo-white.png');
@@ -139,6 +140,7 @@ if (darkMode) {
 
     document.getElementById('toggle-theme').setAttribute('src', './assets/images/icons/green-icons/dark-mode-icon.png');
     signClick.setAttribute('src', './assets/images/icons/green-icons/sign-green-icon.png');
+    closeRecept.setAttribute('src', './assets/images/icons/green-icons/close-green-icon.png');
 
     for (const logo of logos) {
         logo.setAttribute('src', './assets/images/logos/fitchef-logo-green.png');
@@ -155,6 +157,7 @@ document.getElementById("toggle-theme").addEventListener("click", () => {
 
         document.getElementById('toggle-theme').setAttribute('src', './assets/images/icons/white-icons/light-mode-icon.png');
         signClick.setAttribute('src', './assets/images/icons/white-icons/sign-white-icon.png');
+        closeRecept.setAttribute('src', './assets/images/icons/white-icons/close-white-icon.png');
         
         for (const logo of logos) {
             logo.setAttribute('src', './assets/images/logos/fitchef-logo-white.png');
@@ -165,6 +168,7 @@ document.getElementById("toggle-theme").addEventListener("click", () => {
 
         document.getElementById('toggle-theme').setAttribute('src', './assets/images/icons/green-icons/dark-mode-icon.png');
         signClick.setAttribute('src', './assets/images/icons/green-icons/sign-green-icon.png');
+        closeRecept.setAttribute('src', './assets/images/icons/green-icons/close-green-icon.png');
 
         for (const logo of logos) {
             logo.setAttribute('src', './assets/images/logos/fitchef-logo-green.png');

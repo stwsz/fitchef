@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./recipes.css">
     <link rel="icon" href="./../../assets/images/favicons/favicon-white.png">
     <script type="module" src="./../../app.js" defer></script>
-    <script src="./recipes.js"></script>
+    <script src="./recipes.js" type="module" defer></script>
     <title>Receitas - FitChef</title>
 </head>
 <body>
@@ -51,7 +51,7 @@
                 <ul id="sign-ul">
                     <a href="./../../pages/login/login.html">
                         <li>
-                            <img src="./../../assets/images/icons/green-icons/login-green-icon.png" alt="">
+                            <img src="./../../assets/images/icons/green-icons/login-green-icon.png" id="icon-login" alt="">
     
                             <p>Fazer login</p>
                         </li>
@@ -59,7 +59,7 @@
                     
                     <a href="./../../pages/registration/registration.html">
                         <li>
-                            <img src="./../../assets/images/icons/green-icons/register-green-icon.png" alt="">
+                            <img src="./../../assets/images/icons/green-icons/register-green-icon.png" class="icons-sign" id="icon-register" alt="">
     
                             <p>Fazer Cadastro</p>
                         </li>
@@ -282,7 +282,7 @@
     </main>
 
     <footer>
-        <img src="./../../assets/images/logos/fitchef-logo-green.png" alt="">
+        <img src="./../../assets/images/logos/fitchef-logo-green.png" class="logo" alt="">
 
         <p>&copy; 2024 FitChef. Todos os direitos reservados. Inspire-se, cozinhe com saúde e sabor!</p>
     </footer>
@@ -293,7 +293,7 @@
 
     <div id="modal-add-recept">
         <div>
-            <div>
+            <div id="first-child-modal-add">
                 <p>Adicionar receita</p>
 
                 <img src="./../../assets/images/icons/white-icons/close-white-icon.png" alt="">
@@ -305,7 +305,7 @@
                 <input type="text">
             </div>
 
-            <button>
+            <button id="button-modal">
                 Próximo passo
             </button>
         </div>
