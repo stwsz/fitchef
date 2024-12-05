@@ -94,6 +94,14 @@ header #additional-informations img {
     right: 110px;
 }
 
+#language-ul li {
+    transition: 0.5s;
+}
+
+#sign-ul a li {
+    transition: 0.5s;
+}
+
 header #additional-informations div ul li {
     display: flex;
     align-items: center;
@@ -107,7 +115,7 @@ header #additional-informations div ul li img {
     width: 1rem;
 }
 
-header div img:hover, #navigation li:hover, header a > img:hover {
+header div img:hover, #navigation li:hover, header a > img:hover, #language-ul li:hover, #sign-ul a li:hover {
     transform: scale(1.05);
     transition: 0.5s;
     cursor: pointer;
@@ -187,7 +195,7 @@ footer p {
     font-size: 0.9rem;
 }
 
-#modal-add-recept > div div:first-child {
+#modal-add-recept > div #first-child-modal-add:first-child {
     display: flex;
     align-items: center;
     width: 100%;
@@ -230,4 +238,26 @@ footer p {
 #modal-add-recept > div div:first-child img:hover, #modal-add-recept > div button:hover {
     transform: scale(1.05);
     transition: 0.8s;
+}
+
+.third-modal-infos {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0rem;
+    width: 100%;
+}
+
+.third-modal-infos div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.third-modal-infos div p {
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+.third-modal-infos div input {
+    width: 50%;
 }
